@@ -1,18 +1,4 @@
-GEM
-  remote: http://rubygems.org/
-  ruby '1.9.3'
- specs:
-    rack (1.4.1)
-    rack-protection (1.2.0)
-      rack
-    sinatra (1.3.2)
-      rack (~> 1.3, >= 1.3.6)
-      rack-protection (~> 1.2)
-      tilt (~> 1.3, >= 1.3.3)
-    tilt (1.3.3)
+source 'http://rubygems.org'
 
-PLATFORMS
-  ruby
-
-DEPENDENCIES
-  sinatra
+ruby '1.8.7'
+gem  'rails', '3.2.3'
